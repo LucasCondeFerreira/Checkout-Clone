@@ -1,0 +1,386 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+
+a {
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+
+
+@media (min-width: 729px) {
+  .sumir {
+    display: block;
+  }
+  .metodos {
+    gap: 24px;
+  }
+
+  .aparecer{
+    display: none !important;
+  }
+}
+@media (max-width: 728px) {
+  .aparecer {
+    display: block;
+  }
+
+  .metodos {
+  gap: 0px;
+}
+
+  .sumir{
+    display: none !important;
+  }
+}
+
+.border-green {
+  border: 1px solid #009D43;
+  border-radius: 3px;
+}
+.counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    padding: 24px 0;
+    background-color: rgba(222, 157, 2, 1);
+  }
+
+  .counter > div > div > span {
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+    font-size: 42px;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .counter > div > div > img {
+    object-fit: contain;
+  }
+  .counter > div > div > h4 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .col, .col-md, .col-1, .col-2, .col-3, .col-4, .col-8, .col-12 {
+    padding: 0;
+  }
+
+  .div {
+    display: flex;
+    flex-direction: column;
+    max-width: 384px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .div-saber {
+    background-color: rgba(0, 113, 188, 1);
+    border-radius: 16px;
+  }
+ 
+
+  .div-saber > h4 {
+
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  img.image-max {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .Resumo-10 {
+    color: rgba(0, 113, 188, 1);
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .acesso-ao-produto-liberado-via {
+    max-width: 273px;
+    margin-top: 6px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 12px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+  }
+  .Resumo-26 {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .Resumo-30 {
+    color: rgba(0, 113, 188, 1);
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .Resumo-31 {
+    color: rgba(0, 113, 188, 1);
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .curso-de-pericia-judicial {
+    font-size: 14px;
+  }
+  .Resumo-37 {
+    color: rgba(0, 113, 188, 1);
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+
+  .uma-nova-forma-de-aplicar-os-c {
+    max-width: 304px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+  }
+
+
+
+
+
+  .div-4 {
+    display: flex;
+    flex-direction: column;
+    max-width: 258px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 13px;
+  }
+  .div-5 {
+    color: rgba(40, 44, 47, 1);
+    letter-spacing: 0%;
+    font-family: "Montserrat", sans-serif;
+  }
+  .div-6 {
+    margin-top: 8px;
+    color: rgba(40, 44, 47, 1);
+    font-size: 15.09158706665039px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .div-7 {
+    color: rgba(0, 113, 188, 1);
+    font-family: "Montserrat", sans-serif;
+  }
+  .div-8 {
+    margin-top: 7px;
+    border-color: rgba(230, 233, 237, 1);
+    border-width: 1px;
+    border-style: solid;
+  }
+
+
+  .label-2 {
+    color: rgba(40, 44, 47, 1);
+    font-family: "Montserrat", sans-serif;
+  }
+  .label-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 3px;
+    padding-top: 14px;
+    padding-right: 13px;
+    padding-bottom: 14px;
+    padding-left: 13px;
+    border-color: rgba(201, 206, 212, 1);
+    border-width: 1px;
+    border-style: solid;
+    color: rgba(112, 119, 128, 1);
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+
+
+
+  .metodo-3, .nav-link.active {
+    border-radius: 4px;
+    border-color: rgba(53, 92, 192, 1) !important;
+    border-width: 1px;
+    border-style: solid;
+    background-color: rgba(235, 240, 255, 1) !important;
+  }
+
+
+  .metodo-7, .nav-link {
+    width: 162px;
+    height: 66px;
+    border-radius: 4px;
+    border-color: rgba(201, 206, 212, 1);
+    border-width: 1px;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .metodo-10 {
+    color: rgba(112, 119, 128, 1);
+    font-size: 12px;
+    font-family: "Nunito Sans", sans-serif;
+  }
+
+
+
+
+  .payment {
+						  border-radius: 4px;
+						  border-color: rgba(230, 233, 237, 1);
+						  border-width: 1px;
+						  border-style: solid;
+						}
+						.payment-4 {
+						  max-width: 53px;
+						  color: rgba(50, 54, 59, 1);
+						  font-size: 12px;
+						  line-height: 14px;
+						  letter-spacing: 0%;
+						  text-align: left;
+						  font-family: "Nunito Sans", sans-serif;
+						}
+						.digite-o-numero-do-seu-cpf-ou {
+						  display: flex;
+						  flex-direction: row;
+						  max-width: 198px;
+						  justify-content: flex-start;
+						  align-items: flex-start;
+						  margin-top: 10px;
+						  border-radius: 4px;
+						  padding-top: 13px;
+						  padding-right: 391px;
+						  padding-bottom: 13px;
+						  padding-left: 13px;
+						  border-color: rgba(201, 206, 212, 1);
+						  border-width: 1px;
+						  border-style: solid;
+						  background-color: rgba(255, 255, 255, 1);
+						  color: rgba(112, 119, 128, 1);
+						  font-size: 12px;
+						  line-height: 14px;
+						  letter-spacing: 0%;
+						  text-align: left;
+						  font-family: "Nunito Sans", sans-serif;
+						}
+						.por-exigencia-do-banco-central {
+						  max-width: 357px;
+						  margin-top: 6px;
+						  color: rgba(112, 119, 128, 1);
+						  font-size: 12px;
+						  line-height: 14px;
+						  letter-spacing: 0%;
+						  text-align: left;
+						  font-family: "Nunito Sans", sans-serif;
+						}
+						.payment-5 {
+						  display: flex;
+						  max-width: 602px;
+						  height: 1px;
+						  width: 602px;
+						  margin-top: 16px;
+						  border-color: rgba(230, 233, 237, 1);
+						  border-width: undefinedpx;
+						  border-style: solid;
+						}
+
+
+
+
+
+
+  .div-95 {
+    color: rgba(112, 119, 128, 1);
+    font-size: 16.245182037353516px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .div-96 {
+    display: flex;
+    height: 0px;
+    width: 100%;
+    margin-top: 23px;
+    border-color: rgba(230, 233, 237, 1);
+    border-width: 1px;
+    border-style: solid;
+  }
+  .div-98 {
+    color: rgba(40, 44, 47, 1);
+    font-size: 14px;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+  }
+  .div-99 {
+    color: rgba(0, 113, 188, 1);
+    font-size: 26.30830192565918px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .button-100 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23px;
+    border-radius: 6px;
+    background-color: rgba(49, 136, 52, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+  }
+  .div-105 {
+    min-width: 20px;
+    min-height: 20px;
+  }
+  .div-107 {
+    color: rgba(49, 136, 52, 1);
+    font-size: 18.72681999206543px;
+    font-family: "Roboto", sans-serif;
+  }
+  .div-108 {
+    color: rgba(49, 136, 52, 1);
+    font-size: 18.72681999206543px;
+    font-family: "Roboto", sans-serif;
+  }
+
+
+
+
+  .footer {
+    border-radius: 10px;
+    background-color: black;
+    border-color: rgba(255, 126, 6, 1);
+    border-width: 1px;
+    border-style: solid;
+  }
+  .footer-3 {
+    max-width: 24px;
+  }
+
+  .satisfacao-garantida-ou-o-seu {
+    max-width: 401px;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .footer-7 {
+    display: flex;
+    flex-direction: column;
+    max-width: 626px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .footer-8 {
+    color: rgba(255, 126, 6, 1);
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+  }
